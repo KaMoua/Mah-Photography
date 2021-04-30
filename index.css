@@ -1,0 +1,105 @@
+<style>
+    body {
+    background: url("https://static.pexels.com/photos/368893/pexels-photo-368893.jpeg");
+    color: white;
+    font-family: Cooper Black;
+      }
+    #nav-bar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+    }
+    h1 {
+        font-size: 48px;
+        padding: 15px;
+        color: white;
+      }
+    h1:hover {
+        color: hsl(180,60%,70%);
+        cursor: default;
+      }
+    p {
+        font-size: 20px;
+      }
+    label {
+        color: yellow
+        }
+    body {
+        text-align: center;
+        }
+    img {
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: -4.5%;
+        margin-top: -8%;
+        opacity: 65%;
+      }
+    #front-landing {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+        margin: 50px;
+      }
+    #front-landing:hover {
+        cursor: pointer
+      }
+    #email {
+        margin-bottom: 15px;
+        min-height: 1px;
+        width: 15%;
+        padding: 8px;
+      }
+    #submit:hover {
+        cursor: pointer;
+        color: hsl(180,60%,70%);
+      }
+    .submit {
+         padding: 0px 10px 0px 10px;
+         height: 30px;
+         font-size: 18px;
+         font-weight: 1000;
+         text-transform: uppercase;
+         border: 2px hsl(180,60%,70%) solid;
+         border-radius: 1px;
+         background: transparent;
+         cursor: pointer;
+         color: white;
+      }
+    input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+      }
+    li {
+        list-style: none;
+    }
+    .product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: calc(100% / 3);
+        margin: 10px;
+        border: 10px solid hsl(180,60%,70%);
+        border-radius: 3px;
+      }
+    .product {
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    #pricing {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+        margin: 50px;
+    }
+    </style>
